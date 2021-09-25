@@ -16,7 +16,6 @@
         <h1
           class="
             text-4xl
-            font-extrabold
             tracking-tight
             text-white
             sm:text-5xl

@@ -1,6 +1,11 @@
 import { getRoutes, getNavigation } from "@/data/utils";
-
+import experiencesJSON from "@/data/experiences.json";
 const MASTER_ROUTES = [
+  {
+    path: "/projects/:projectId",
+    label: "Project",
+    component: () => import("@/views/project"),
+  },
   {
     path: "/",
     label: "home",
@@ -176,3 +181,5 @@ export const posts = [
     },
   },
 ];
+
+export const experiences = experiencesJSON;
