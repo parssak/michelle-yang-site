@@ -6,17 +6,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
 
       colors: {
         accent: {
-          dark: "#052b24",
-          DEFAULT: "#004739",
-          light: "#00a887",
-          lightest: "#ccfff5",
-        }
-      }
+          dark: "#060042",
+          DEFAULT: "#4938ff",
+          light: "#b88fff",
+          lightest: "#eadeff",
+        },
+      },
     },
   },
   variants: {
