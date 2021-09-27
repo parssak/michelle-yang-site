@@ -1,28 +1,23 @@
 [
   {
+    "id": "dentsu",
     "title": "dentsu international",
     "subtitle": "communications intern",
-    "id": "dentsu",
     "date": "April 2021 - August 2021",
-    "description":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa.",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa."
   },
   {
+    "id": "asc",
     "title": "Autism Speaks Canada",
     "subtitle": "campaign specialist",
-    "id": "autism",
     "date": "July 2020 - Present",
-    "description":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa.",
-    "imageUrl": "/banner/autism-banner.jpg"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa."
   },
   {
+    "id": "topad",
     "title": "Canada's Next Top Ad Exec",
     "subtitle": "executive member",
-    "id": "poo",
     "date": "June 2020 - August 2020",
-    "description":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa.",
-    "imageUrl": "/banner/poo-banner.jpg"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa."
   }
 ]

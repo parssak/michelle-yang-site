@@ -39,13 +39,13 @@
     :path="`/projects/${experience.id}`"
     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nisl auctor, rhoncus nisl ut, aliquam erat."
   >
-    <img :src="experience.imageUrl" alt="" />
+    <img :src="`/projects/${experience.id}/banner.jpg`" alt="" />
   </Split>
 
-  <Container class="bg-black">
+  <Container class="bg-black py-12">
     <div class="grid gap-x-8 gap-y-12 md:grid-cols-2">
       <div class="text-center md:text-left text-white flex flex-col">
-        <h2 class="text-5xl text-white">About Me</h2>
+        <h2 class="text-white">About Me</h2>
         <p class="mt-auto pt-4 text-lg max-w-md mx-auto md:ml-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           doloremque, dolore quisquam quidem, quisquam quisquam quisquam Lorem
@@ -56,8 +56,8 @@
         </p>
       </div>
       <div>
-        <div class="max-w-lg mx-auto">
-          <img src="@/assets/about.png" />
+        <div class="max-w-md mx-auto">
+          <img src="@/assets/about.png" class="object-fit w-full h-full" />
         </div>
       </div>
     </div>
