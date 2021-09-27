@@ -1,33 +1,37 @@
 <template>
-  <Container full class="bg-accent-lightest">
-    <div class="mt-12 md:mt-24">
-      <h1 class="tracking-tight font-bold text-4xl sm:text-6xl">
-        Hi, I'm Michelle
-      </h1>
-      <p class="mt-2 text-lg sm:text-2xl tracking-tight">
-        Lorem ipsum dolor sit amet
-      </p>
+  <Container full>
+    <div class="mt-12 md:mt-24 grid gap-12 lg:grid-cols-2">
+      <section class="text-center lg:text-left">
+        <h1 class="tracking-tighter font-semibold text-4xl sm:text-6xl">
+          Hi, I'm Michelle
+        </h1>
 
-      <p class="mt-12 max-w-md">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non debitis
-        vel adipisci quibusdam, corporis fuga animi voluptatum distinctio eos.
-      </p>
+        <p class="mt-20 max-w-md text-lg text-black mx-auto lg:ml-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non
+          debitis vel adipisci quibusdam, corporis fuga animi voluptatum
+          distinctio eos.
+        </p>
 
-      <div class="mt-16 md:mt-6">
-        <Button class="capitalize px-3 py-2 md:text-base w-full sm:w-max"
-          >get in touch</Button
-        >
-      </div>
+        <div class="mt-16">
+          <Button class="capitalize px-3 py-2 md:text-base w-full sm:w-max"
+            >get in touch</Button
+          >
+        </div>
+      </section>
+
+      <section>
+        <img src="@/assets/hero.png" class="mx-auto" />
+      </section>
     </div>
   </Container>
 
-  <Container>
-    <h2>Who am I</h2>
-    <p>I'm that biiiitch, biiiitch. thrust thrust squirt squirt pew pew</p>
+  <Container class="bg-gray-50 -mb-12 md:-mb-24">
+    <h2>My Work</h2>
   </Container>
 
   <Split
     v-for="(experience, index) in experiences"
+    class="bg-gray-50"
     :key="experience.id"
     :flip="index % 2 !== 0"
     :title="experience.title"
@@ -38,15 +42,26 @@
     <img :src="experience.imageUrl" alt="" />
   </Split>
 
-  <!-- jilly -->
-  <Banner
-    title="jilly"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget nisl auctor, rhoncus nisl ut, aliquam erat."
-  >
-    <img src="https://unsplash.it/1920/1080" alt=""
-  /></Banner>
-
-  <BlogThreeColumnCards />
+  <Container class="bg-black">
+    <div class="grid gap-x-8 gap-y-12 md:grid-cols-2">
+      <div class="text-center md:text-left text-white flex flex-col">
+        <h2 class="text-5xl text-white">About Me</h2>
+        <p class="mt-auto pt-4 text-lg max-w-md mx-auto md:ml-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          doloremque, dolore quisquam quidem, quisquam quisquam quisquam Lorem
+          <br />
+          <br />
+          ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          doloremque, dolore quisquam quidem, quisquam quisquam quisquam
+        </p>
+      </div>
+      <div>
+        <div class="max-w-lg mx-auto">
+          <img src="@/assets/about.png" />
+        </div>
+      </div>
+    </div>
+  </Container>
 </template>
 
 <script>

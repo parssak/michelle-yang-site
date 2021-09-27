@@ -1,16 +1,15 @@
 [
   {
     "title": "dentsu international",
-    "subtitle": "Communications Intern",
+    "subtitle": "communications intern",
     "id": "dentsu",
     "date": "April 2021 - August 2021",
     "description":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa.",
-    "imageUrl": "/banner/dentsu-banner.jpg"
   },
   {
     "title": "Autism Speaks Canada",
-    "subtitle": "Campaign Specialist",
+    "subtitle": "campaign specialist",
     "id": "autism",
     "date": "July 2020 - Present",
     "description":
@@ -18,8 +17,8 @@
     "imageUrl": "/banner/autism-banner.jpg"
   },
   {
-    "title": "poo poo sauce",
-    "subtitle": "Intern",
+    "title": "Canada's Next Top Ad Exec",
+    "subtitle": "executive member",
     "id": "poo",
     "date": "June 2020 - August 2020",
     "description":

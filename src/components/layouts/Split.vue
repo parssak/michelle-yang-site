@@ -4,15 +4,41 @@
       <section :class="flip && `md:order-1`" class="md:py-12">
         <h2
           :class="dark && 'text-white'"
-          class="mb-0 font-semibold tracking-tighter"
+          class="mb-0 font-medium tracking-tighter"
         >
           {{ title }}
         </h2>
-        <h2 :class="dark && 'text-white'" class="text-2xl font-medium">
+        <h2 :class="dark && 'text-white'" class="text-xl font-light">
           {{ subtitle }}
         </h2>
-        <p :class="dark && 'text-white'">{{ description }}</p>
-        <Button :path="path">See More</Button>
+        <p :class="dark && 'text-white'" class="max-w-md mb-5">
+          {{ description }}
+        </p>
+        <router-link
+          :to="path"
+          class="
+            inline-flex
+            items-center
+            px-3
+            py-2
+            border border-transparent
+            text-sm
+            leading-4
+            font-medium
+            rounded-md
+            shadow-sm
+            text-white
+            bg-accent
+            transition
+            hover:bg-accent-light
+            focus:outline-none
+            focus:ring-2
+            focus:ring-offset-2
+            focus:ring-accent
+          "
+        >
+        See More
+        </router-link>
       </section>
       <section>
         <div class="split-img-wrapper w-full h-full rounded-md overflow-hidden">

@@ -11,10 +11,10 @@ module.exports = {
 
       colors: {
         accent: {
-          dark: "#060042",
-          DEFAULT: "#4938ff",
-          light: "#b88fff",
-          lightest: "#eadeff",
+          dark: "#260007",
+          DEFAULT: "#FF99AB",
+          light: "#ffbdc9",
+          lightest: "#ffe8ec",
         },
       },
     },
